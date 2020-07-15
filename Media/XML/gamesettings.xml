@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+	<game name="Beacon" />
+   <renderer width="1024" height="768"/>
+
+    <font file="Media\Fonts\AverageSans_24.spritefont"/>
+  
+   <!-- sprites -->
+   
+   <sprites path="Media\Images">
+     <sprite name="tile" file="tile" ext ="png" frames="8"/>
+     <sprite name="player" file="player" ext ="png" frames="6"/>
+	 <sprite name="miner" file="miner" ext ="png" frames="6"/>
+     <sprite name="turret" file="turret.png"/>
+     <sprite name="greenline" file="greenline.png"/>
+     <sprite name="bullet" file="bullet.png"/>
+     <sprite name="bullet2" file="bullet2.png"/>
+     <sprite name="smoke" file="graysmoke.png"/>
+     <sprite name="spark" file="spark.png"/>
+     <sprite name="spikes" file="spikes" ext="png" frames ="7"/>
+	 <sprite name="ispike" file="spikes0.png"/>
+     <sprite name="ibridge" file="ibridge.png"/>
+     <sprite name="warrior" file="warrior.png"/>
+     <sprite name="ilgoblin" file="lgoblinhand.png"/>
+     <sprite name="irgoblin" file="rgoblinhand.png"/>
+	 <sprite name="amber" file="amber" ext="png" frames="4"/>
+	 <sprite name="platform" file="jumpplatform.png"/>
+	 <sprite name="play" file="p_button.png"/>
+     <sprite name="gold" file="gold" ext="png" frames="4"/>
+     <sprite name="bridge" file="bridge.png"/>
+	 <sprite name="rot" file="rotspikes.png"/>
+	 <sprite name="finish" file="platform.png"/>
+     <sprite name="death" file="death.png"/>
+     <sprite name="blood" file="blood.png"/>
+	 <sprite name="menu" file="selectmenu.png"/>
+	 <sprite name="mselect" file="minselect.png"/>
+	 <sprite name="spider" file="Spider0.png"/>
+	 <sprite name="web" file="web1.png"/>
+	 <sprite name="switch" file="switch" ext="png" frames ="2"/>
+	 <sprite name="door" file="door.png"/>
+	 <sprite name="fshade" file= "fshade.png"/>
+	 <sprite name="back" file= "background.png"/>
+     <sprite name="endlvl" file= "endlvl.png"/>
+     <sprite name="sapphire" file="sapphire" ext="png" frames ="4"/>
+     <sprite name="ruby" file="ruby" ext="png" frames="4"/>
+     <sprite name="emerald" file="emerald" ext="png" frames="4"/>
+     <sprite name="amethyst" file="amethyst" ext="png" frames="4"/>
+     <sprite name="diamond" file="diamond" ext="png" frames="4"/>
+     <sprite name="cavebacon" file="cavebacon" ext="png" frames="4"/>
+     <sprite name="one" file="one.png"/>
+     <sprite name="two" file="two.png"/>
+     <sprite name="three" file="three.png"/>
+     <sprite name="star" file="star.png"/>
+     <sprite name="blankstar" file="blankstar.png"/>
+     <sprite name="resultscreen" file= "resultscreen.png"/>
+     <sprite name="lgoblinhand" file= "lgoblinhand.png"/>
+     <sprite name="rgoblinhand" file= "rgoblinhand.png"/>
+     <sprite name="goblinarm" file= "goblinarm.png"/>
+     <sprite name="gameover" file= "gameover.png"/>
+	 <sprite name="button" file= "RedButton.png"/>
+   </sprites>
+
+   <!-- sound -->
+  
+   <sounds  path="Media\Sounds">
+     <sound file="44magnum.wav" instances="8"/>
+     <sound file="ricochet.wav" instances="8"/>
+     <sound file="ow.wav" instances="8"/>
+     <sound file="clang.wav" instances="8"/>
+     <sound file="InitialSpikeSound.wav" instances="3"/>
+	 <sound file="Platform.wav" instances="1"/>
+	 <sound file="door_lock.wav" instances="1"/>
+	 <sound file="Ruined-Planet.wav" instances="1"/>
+     <sound file="mining.wav" instances="1"/>
+	 <sound file="death.wav" instances="1"/>
+   </sounds>
+</settings>
